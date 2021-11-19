@@ -6,8 +6,67 @@
 
 body {
   font-size: 16px;
-  font-family:'Times New Roman', Times, serif;  
+  font-family: 'Times New Roman', Times, serif;
   background-color: rgba(112, 210, 240, 0.329);
+}
+
+#header {
+  background-color: black;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  color: white;
+  align-items: center;
+}
+
+#brand-logo {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  width: 20%;
+}
+
+.navbar {
+  width: 50%;
+}
+
+.nav-list {
+  width: 100%;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.nav-link {
+  width: 25%;
+  color: white;
+}
+
+.nav-link:hover {
+  color: lightcyan;
+}
+
+.searchbar {
+  width: 20%;
+  margin-left: auto;
+  margin-right: 1rem;
+}
+
+
+label {
+  background-color: white;
+  color: black
+}
+
+#search-btn {
+  cursor: pointer;
+  outline: none;
+}
+
+#search-btn,
+input[type="search"]{
+  padding: 0.3rem;
+  border: 2px solid white;
+  border-radius: 2px;
 }
 
 #main {
@@ -15,9 +74,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
-  padding-right: 15px; 
+  padding-right: 15px;
 }
-
 
 #title {
   margin-top: 20px;
@@ -42,12 +100,12 @@ body {
 
 #img-div {
   background-color: white;
-  padding: 20px; 
-  max-width: 100%;  
+  padding: 20px;
+  max-width: 100%;
 }
 
 #image {
-  max-width: 100%;  
+  max-width: 100%;
   width: 100%;
   height: auto;
   display: block;
@@ -70,7 +128,7 @@ body {
 ul > li {
   text-align: left;
   word-spacing: 2px;
-  margin: 30px; 
+  margin: 30px;
   padding-left: 0;
 }
 
@@ -78,13 +136,11 @@ main p:last-child {
   font-weight: bold;
 }
 
-
 #tribute-link {
   color: #477ca7;
   font-size: 1rem;
   font-weight: bold;
 }
-
 
 /* FOR LARGE SCREENS */
 @media only screen and (min-width: 1024px) {
@@ -93,9 +149,9 @@ main p:last-child {
   }
 
   #title {
-    font-size: 3rem;    
+    font-size: 3rem;
   }
-  
+
   .p01 {
     font-size: 1.25rem;
   }
@@ -106,13 +162,11 @@ main p:last-child {
 
   main p:last-child {
     text-align: center;
-    word-spacing: .08;
+    word-spacing: 0.08;
     font-size: 1.25rem;
-
   }
 
   #tribute-link {
     font-size: 1.25rem;
   }
 }
-
